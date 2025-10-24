@@ -10,7 +10,7 @@ int main(){
 
         printf ("Tebak angka bom dengan range %d - %d: ", min, max);
         scanf ("%d", &tebak);
-        if (tebak < min || tebak > max){
+        if (tebak <= min || tebak >= max){
             printf ("Tebakan tidak masuk range\n\n");
         } else if (tebak < bom){
             printf ("\nAngka Bom lebih besar\n\n");
